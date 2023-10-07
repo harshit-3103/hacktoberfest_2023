@@ -32,7 +32,6 @@ def Bankersafety(l,a,b,av):
                 state=0
         state+=1
 
-#Sam T Robin 21BRS1445
 a = int(input("Enter number of processes\n"))
 b = int(input("Enter number of resources\n"))
 avail=list(map(int,input("Enter the total available\n").split()))
